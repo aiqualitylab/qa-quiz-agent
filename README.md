@@ -55,20 +55,20 @@ cd qa-quiz-agent
 
 ---
 
-**### Install dependencies:**
+### Install dependencies:
 
 pip install -r requirements.txt
 
 
 ---
 
-**### Add Your OpenAI API Key**
+### Add Your OpenAI API Key
 
 OPENAI_API_KEY=your_key_here
 
 ---
 
-**### Run the App Locally**
+### Run the App Locally
 
 streamlit run qa_quiz_agent.py
 
