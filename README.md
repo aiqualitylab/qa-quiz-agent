@@ -47,7 +47,7 @@ Follow these steps to run the app locally.
 
 ---
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/aiqualitylab/qa-quiz-agent.git
 cd qa-quiz-agent
