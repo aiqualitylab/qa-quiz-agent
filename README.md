@@ -41,3 +41,35 @@ All questions, answers, and AI explanations are saved to `quiz_log.json`.
 Runs on Streamlit Cloud or Kaggle Notebook with minimal setup.
 
 ---
+# 📦 Installation
+
+Follow these steps to run the app locally.
+
+---
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/aiqualitylab/qa-quiz-agent.git
+cd qa-quiz-agent
+```
+
+---
+
+**### Install dependencies:**
+
+pip install -r requirements.txt
+
+
+---
+
+**### Add Your OpenAI API Key**
+
+OPENAI_API_KEY=your_key_here
+
+---
+
+**### Run the App Locally**
+
+streamlit run qa_quiz_agent.py
+
+---
