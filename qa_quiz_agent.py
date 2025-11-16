@@ -162,8 +162,8 @@ if current < total_questions:
             json.dump(quiz_history, file, indent=2)  # Convert to JSON and save nicely formatted
         
         # Wait before next question
-        st.info("Next question in 20 seconds...")  # Tell user to wait
-        time.sleep(20)  # Pause for 20 seconds
+        st.info("Next question in 7 seconds...")  # Tell user to wait
+        time.sleep(7)  # Pause for 7 seconds
         
         # Move to next question
         st.session_state.current_question += 1  # Add 1 to question number
@@ -228,4 +228,5 @@ with col3:
         wrong = current - st.session_state.points
     else:
         wrong = total_questions - st.session_state.points
+
     st.metric("Wrong", wrong)  # Display wrong count
