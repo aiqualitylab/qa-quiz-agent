@@ -40,6 +40,12 @@ All questions, answers, and AI explanations are saved to `quiz_log.json`.
 ### ✔️ Fully Deployable  
 Runs on Streamlit Cloud or Kaggle Notebook with minimal setup.
 
+## Key Features & Concepts Demonstrated
+
+- **Tool Integration**: The project integrates multiple external tools: Open Trivia Database API for dynamic question retrieval and OpenAI API for generating natural-language explanations 
+- **Sessions & Memory**: The system maintains state across interactions using: st.session_state for active quiz progress and quiz_log.json for persistent quiz history (long-term memory)  
+- **Agent Evaluation & QA Scoring**: The app evaluates user answers by: Checking correctness, Calculating score + percentage, Tracking correct vs wrong answers, Logging each question, user answer, correct answer, and AI explanation Includes mechanisms to evaluate answers (e.g. scoring, correctness check, optionally human-in-the-loop) — critical for QA-quality control.  
+
 ---
 # 📦 Installation
 
